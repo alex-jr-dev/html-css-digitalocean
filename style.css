@@ -48,3 +48,24 @@
     background-color: #2687fd;
 }
 
+/* First main section */
+
+.section {
+    padding: 20px 0;
+}
+
+.f-mainsection {
+    background: url(img/bg-banner-home.jpg);
+}
+
+.text-white {
+    color: white;
+}
+
+.text-grey {
+    color: #b9cbff;
+}
+
+.big {
+    font-size: 50px;
+}
