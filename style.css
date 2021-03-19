@@ -153,9 +153,19 @@
 .bg-grey img {
     display: inline-block;
     vertical-align: middle;
+    padding: 5px;
 }
 
 .bg-grey p>a>span {
     font-size: 10px;
     padding-left: 5px;
+}
+
+.bg-grey p>a{
+    color: #3c84ff;
+    text-decoration: none;
+}
+
+.bg-grey p>a:hover {
+    color: #004bfe;
 }
