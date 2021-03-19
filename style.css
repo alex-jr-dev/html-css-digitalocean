@@ -20,7 +20,8 @@
 }
 
 .mylist>li>a:hover {
-    background-color: #2687fd;
+    background-color: #004bfe;
+    color: white;
 }
 
 .mynavimg {
@@ -36,8 +37,8 @@
 }
 
 #button:hover {
-    color: #122958;
-    border: 1px solid #122958;
+    color: #004bfe;
+    border: 1px solid #004bfe;
 }
 
 .text-black {
@@ -45,7 +46,7 @@
 }
 
 .mynav .navbar-toggle .icon-bar{
-    background-color: #2687fd;
+    background-color: #004bfe;
 }
 
 /* First main section */
@@ -56,6 +57,8 @@
 
 .f-mainsection {
     background: url(img/bg-banner-home.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 .text-white {
@@ -69,3 +72,66 @@
 .big {
     font-size: 50px;
 }
+
+.f-mainsection .panel {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.f-mainsection .panel>.panel-body>h3>a {
+    color: #016aff;
+}
+
+.f-mainsection .panel>.panel-body>h3:first-child {
+    margin-bottom: 0;
+}
+
+.f-mainsection .panel>.panel-body>h3:nth-child(2) {
+    margin-top: 0;
+}
+
+.f-mainsection .panel>.panel-body>h3>a:hover {
+    color: #004bfe;
+    text-decoration: none;
+}
+
+.mybtn {
+    color: white;
+    background-color: #579aff;
+    border-color: #579aff;
+}
+
+.mybtn-g {
+    color: #686868;
+    box-shadow: 3px 3px 10px #888888;
+    background-color: white;
+    position: relative;
+}
+
+.mybtn:hover,
+.mybtn-g:hover {
+    color: #122958;
+}
+
+.f-mainsection .panel>.panel-body img {
+    width: 15px;
+    position: absolute;
+    bottom: 20%;
+    left: 2%;
+}
+
+.f-mainsection .panel>.panel-body p {
+    font-size: 8px;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.f-mainsection .panel>.panel-body p>a {
+    text-decoration: underline;
+    color: #3c84ff;
+}
+
+.f-mainsection .panel>.panel-body p>a:hover {
+    color: #122958;
+}
+
