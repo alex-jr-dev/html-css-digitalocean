@@ -1,0 +1,50 @@
+/* Navbar section */
+
+.navbar-brand img {
+    width: 150px;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.mynav {
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+.mynav a {
+    color: #122958;
+    text-decoration: none;
+}
+
+.mylist>li>a:hover {
+    background-color: #2687fd;
+}
+
+.mynavimg {
+    padding-top: 9px;
+}
+
+#button {
+    color: #2687fd;
+    padding: 4px 8px;
+    border: 1px solid #2687fd;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+#button:hover {
+    color: #122958;
+    border: 1px solid #122958;
+}
+
+.text-black {
+    color: black;
+}
+
+.mynav .navbar-toggle .icon-bar{
+    background-color: #2687fd;
+}
+
