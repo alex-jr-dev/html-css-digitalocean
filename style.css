@@ -180,17 +180,16 @@
 
 /* Third main section */
 
-.t-main h2,
-.t-main h4 {
+.text-blue {
     color: #031c4e;
-}
-
-.t-main p {
-    color: #7f8ba1;
 }
 
 .text-grey {
     color: #7f8ba1;
+}
+
+.t-main p {
+    margin-bottom:40px;
 }
 
 .t-main .row>.col-xs-12>ul>li {
@@ -214,7 +213,7 @@
 }
 
 .t-main p {
-    margin-bottom:40px;
+    
 }
 
 #global {
@@ -227,3 +226,57 @@
         padding-top: 0;
     }
 }
+
+/* Fourth main section */
+
+.f-main div>h1 {
+    padding-bottom: 20px;
+}
+
+.f-main div:first-child p {
+    padding-bottom: 20px;
+}
+
+.f-main div:nth-child(2) p {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.wrapper div>img {
+    max-width: 800px;
+}
+
+.wrapper>div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.wrapper div>span {
+    font-size: 25px;
+    padding: 0 10px;
+}
+
+.wrapper div:first-child span {
+    color: #7f8ba1;
+}
+
+.wrapper div:last-child span {
+    color: #031c4e;
+}
+
+.wrapper div>div>p {
+    padding-top: 15px;
+}
+
+.circle {
+    border: 1px solid #016aff;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.in {
+    background-color: #016aff;
+}
+
