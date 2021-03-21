@@ -347,6 +347,10 @@
 
 /* Second carousel main section */
 
+.section.get-started-now {
+    padding-bottom: 50px;
+}
+
 .mycarousel>div {
     display: inline-block;
     vertical-align: middle;
@@ -373,7 +377,6 @@
     margin: 10px;
     text-decoration: none;
     background-color: white;
-    margin-bottom: 20px;
 }
 
 .get-started-now div>p>a:hover{
@@ -385,3 +388,30 @@
     padding-bottom: 20px;
 }
 
+/* Footer section */
+
+.bg-dark-blue {
+    background-color: #031c4e;
+}
+
+.ft-section:first-child>p:first-of-type {
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.ft-section:first-child>p:nth-child(3) {
+    color: #4e5e7d;
+}
+
+.ft-section ul>li>a {
+    color: #7f8ba1;
+}
+
+.ft-section ul>li>a:hover {
+    color: #2687fd;
+    text-decoration: none;
+}
+
+.ft-section ul>li {
+    padding: 3px 0;
+}
