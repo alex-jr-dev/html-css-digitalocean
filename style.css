@@ -243,7 +243,7 @@
 }
 
 .wrapper div>img {
-    max-width: 800px;
+    
 }
 
 .wrapper>div {
@@ -280,3 +280,22 @@
     background-color: #016aff;
 }
 
+/* Fifth main section */
+
+.f-section {
+    padding: 40px 10px;
+}
+
+.f-section a,
+.f-section span {
+    text-decoration: none;
+    color: #3080ff;
+}
+
+.f-section i {
+    font-size: 10px;
+}
+
+.f-section a:hover{
+    color: #122958;
+}
