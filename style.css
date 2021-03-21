@@ -348,7 +348,8 @@
 /* Second carousel main section */
 
 .section.get-started-now {
-    padding-bottom: 50px;
+    padding-top: 25px;
+    padding-bottom: 35px;
 }
 
 .mycarousel>div {
@@ -372,7 +373,7 @@
 
 .get-started-now div>p>a {
     color: #2687fd;
-    padding: 8px 16px;
+    padding: 12px 16px;
     border-radius: 5px;
     margin: 10px;
     text-decoration: none;
