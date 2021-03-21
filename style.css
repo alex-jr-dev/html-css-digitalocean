@@ -297,7 +297,7 @@
 }
 
 .f-section a:hover{
-    color: #122958;
+    color: #031c4e;
 }
 
 /* Test speed main section */
@@ -364,5 +364,24 @@
     font-size: 10px;
 }
 
+/* Get started now main section */
 
+.get-started-now div>p>a {
+    color: #2687fd;
+    padding: 8px 16px;
+    border-radius: 5px;
+    margin: 10px;
+    text-decoration: none;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.get-started-now div>p>a:hover{
+    text-decoration: none;
+    color: #031c4e;
+}
+
+.get-started-now div>h1 {
+    padding-bottom: 20px;
+}
 
