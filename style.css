@@ -547,3 +547,9 @@
   border: 1px solid white;
 }
 
+@media all and (max-width: 420px) {
+  .shark p {
+    width: 150px;
+  }
+}
+
