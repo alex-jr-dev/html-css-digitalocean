@@ -72,6 +72,11 @@
   background-size: cover;
 }
 
+.f-mainsection>div>div>div>h1,
+.f-mainsection>div>div>div>p {
+  width: 90%;
+}
+
 .text-white {
   color: white;
 }
