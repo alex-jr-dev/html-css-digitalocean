@@ -166,7 +166,7 @@
 }
 
 @media all and (max-width: 480px) {
-    .bg-grey img {
+    .logo {
         width: calc((100%/2) - 2px);
     }
 }
@@ -219,6 +219,12 @@
     max-width: 20px;
 }
 
+@media all and (max-width: 767px) {
+    .t-main p {
+        margin-bottom: 10px;
+    }
+}
+
 /* First carousel main section */
 
 .f-main div>h1 {
@@ -234,13 +240,18 @@
     margin-bottom: 0;
 }
 
-.wrapper div>img {
-    
+.wrapper {
+    max-width: 800px;
+}
+
+.wrapper div {
+    display: inline-block;
 }
 
 .wrapper>div:nth-child(2) {
     display: inline-block;
     vertical-align: middle;
+    max-width: calc((100% - 90px) - 8px);
 }
 
 .wrapper div>span {
@@ -272,10 +283,17 @@
     background-color: #016aff;
 }
 
+@media all and (max-width: 767px) {
+    .wrapper>div:nth-child(2) {
+        
+    }
+}
+
 /* Business main section */
 
 .f-section {
-    padding: 40px 10px;
+    padding: 20px 10px;
+    padding-bottom: 30px;
 }
 
 .f-section a,
@@ -292,6 +310,15 @@
     color: #031c4e;
 }
 
+@media all and (max-width: 767px) {
+    .f-section {
+        padding-bottom: 0px;
+    }
+
+    .f-section:last-child {
+        padding-bottom: 30px;
+    }
+}
 /* Test speed main section */
 
 .bg-blue-gradient {
