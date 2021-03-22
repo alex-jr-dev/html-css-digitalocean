@@ -216,14 +216,10 @@
     
 }
 
-#global {
-    padding-top: 20px;
-}
-
-@media all and (max-width: 991) { 
+@media all and (min-width: 992) { 
     
     #global {
-        padding-top: 0;
+        padding-top: 20;
     }
 }
 
@@ -416,3 +412,57 @@
 .ft-section ul>li {
     padding: 3px 0;
 }
+
+/* Shark */
+
+.shark {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.wrapper-shark {
+    position: relative;
+}
+
+.shark img {
+    width: 60px;
+    padding: 5px 0;
+    background-color: #016aff;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.shark p {
+    display: inline-block;
+    padding: 8px;
+    background-color: white;
+    border-radius: 5px;
+    max-width: 280px;
+    position: absolute;
+    bottom: -10px;
+    right: 80px;
+}
+
+.shark i {
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    bottom: 5px;
+    right: 72px;
+    z-index: 1;
+}
+
+.small-shark {
+    height: 25px;
+    width: 25px;
+    background-color: white;
+    padding: 10px;
+    border: none;
+    position: absolute;
+    right: -5px;
+    bottom: 38px;  
+}
+
