@@ -341,18 +341,21 @@
 }
 
 .s-main ul>li>p:first-child {
-    width:15%;
+    width: 12%;
     color: white;
 }
 
 .s-main ul>li>p:nth-child(2) {
-    width: 60%;
+    width: 68%;
     color: #7f8ba1;
 }
 
 .s-main ul>li a{
-    width: 10%;
+    width: 18%;
     color: #00bccc;
+    display: inline-block;
+    text-align: right;
+    white-space: nowrap;
 }
 
 .s-main ul>li a:hover{
@@ -362,6 +365,16 @@
 
 .s-main ul>li a>i {
     font-size: 10px;
+}
+
+@media all and (max-width: 437px) {
+    .s-main ul>li>p:first-child {
+        width: 15%;
+    }
+    
+    .s-main ul>li>p:nth-child(2) {
+        width: 58%;
+    }
 }
 
 /* Second carousel main section */
