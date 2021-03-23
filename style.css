@@ -171,7 +171,7 @@
   width: calc((100% / 6) - 4px);
 }
 
-@media all and (max-width: 480px) {
+@media all and (max-width: 650px) {
   .logo {
     width: calc((100% / 2) - 2px);
   }
