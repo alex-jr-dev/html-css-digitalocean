@@ -52,11 +52,13 @@
 
 @media all and (min-width: 768px) and (max-width: 991px) {
   .mynav .navbar-collapse > ul > li > a {
-    font-size: 8px;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   .mynav .collapse .mylist span {
-    font-size: 8px;
+    font-size: 10px;
   }
 }
 
